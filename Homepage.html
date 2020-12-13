@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="Homepage.css" />
+  </head>
+  <body>
+    <div style="color:white" class="links-container">
+      <div class="links" >
+        <a
+          style="text-decoration:none"
+          href="../Homepage.html"
+          >Home</a
+        >
+      </div>
+      <div class="links">
+        <a style="text-decoration:none" href="../NotAvailable.html">Products & Services</a>
+      </div>
+      <div class="links">
+        <a style="text-decoration:none" href="1Contactus.html">Contact Us</a>
+      </div>
+    </div>
+    <div class="column-layout">
+      <div class="main-column">
+        <h2>Welcome to TJ's House of Cheeses</h2>
+        <p>
+          Welcome to TJ’s House of Cheeses. We offer over 500 different types of
+          cheese, and we provide nothing but the best, as our cheese comes from
+          local farm-raised cows and goats. Come stop by one of our 12 locations
+          today! Our friendly staff would love to help you figure out which
+          cheese is best for you. If you don’t like what you get, you can return
+          it for a full refund! So if you are feeling a strange craving for
+          cheese, stop by TJ’s House of Cheeses or call us at 8-8-8
+          C-H-E-E-S-E-S.
+        </p>
+      </div>
+
+      <div class="sidebar-two">
+        <h3>
+          <a href="../Homepage.html">
+            <img
+              src="https://cdn.glitch.com/84da8830-f754-4fbe-b192-a61b2ab43d3a%2F4157468344_2187852e-8f30-4ce9-afce-385b60edb795.png?v=1605823229250"
+              alt="Company Logo"
+              width="200"
+              height="40"
+            />
+          </a>
+        </h3>
+
+        <ul>
+          <li>529 different kinds of cheeses!</li>
+          <li>We choose only the best staff for our team!</li>
+          <li>If you don't like it, you get a full refund!</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="specialoffers" class="call-outs-container" >
+      <div class="call-out">
+        <h4>Black Friday Sale!</h4>
+        <p>
+          Come into one of our 12 stores on Black Friday and get 15% your entire
+          first purchase!
+        </p>
+        <nav><button>
+            Learn More
+          </button>
+        </nav>
+      </div>
+
+      <div class="call-out">
+        <h4>Newcomer Offer</h4>
+        <p>
+          If you are a new customer, get 25% off your purchase!
+        </p>
+        <nav>
+          <button href="../Homepage/Homepage.html" class="btn">
+            Learn More
+          </button>
+        </nav>
+      </div>
+    </div>
+    <div style="text-align:center">
+      <button id="hidebutton" onclick="hideAds()">
+        Hide Offers
+      </button>
+    </div>
+    <script>
+      function hideAds(){
+        var x =
+            document.getElementById("specialoffers");
+        var y =
+            document.getElementById("hidebutton");
+       x.style.display = "none";
+       y.style.display = "none" ;
+        }
+    </script>
+  </body>
+</html>
